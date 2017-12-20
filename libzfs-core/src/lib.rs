@@ -75,7 +75,7 @@ impl Zfs {
         };
 
         if v != 0 {
-            Err((io::Error::from_raw_os_error(v), unsafe { NvList::from_ptr(nv) }))
+            Err((io::Error::from_raw_os_error(v), unsafe { NvList::from_ptr(nv, true) }))
         } else {
             Ok(())
         }

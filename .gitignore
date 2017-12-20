@@ -1,3 +1,13 @@
 /target/
 **/*.rs.bk
 Cargo.lock
+
+\.idea/misc\.xml
+
+\.idea/modules\.xml
+
+\.idea/rust-libzfs\.iml
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml
